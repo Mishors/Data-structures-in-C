@@ -8,6 +8,8 @@ Singly linked list is implemented and support the basic operations done on the l
 
 ## Singly Linked List
 
+Linked List which supports **_generic types_** using *void pointers* to be more usable and applicable 
+
 ### Supported Opearations
 
 * ```get_element``` : Allocate memory for new node then initializes its value with the input "value"and set its next node to NULL
@@ -20,6 +22,8 @@ Singly linked list is implemented and support the basic operations done on the l
 
 
 ## Hash-Table
+
+Hash-table or Hash-map which stores key-value pairs to be retrieved as fast as possible which is approximately O(1) in search and insert. This version of Hash-Table supports **only** keys and values of type string.
 
 ### Supported Opearations
 
