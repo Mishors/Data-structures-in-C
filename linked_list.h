@@ -36,7 +36,7 @@ struct node* add_back(struct node* head, void* value);
 
 
 /*
-* removed head node and the next to head becomes the new head
+* remove head node and the next to head becomes the new head
 */
 struct node* remove_head(struct node* head);
 
