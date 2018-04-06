@@ -1,7 +1,7 @@
 #ifndef LINKED_LIST_H_INCLUDED
 #define LINKED_LIST_H_INCLUDED
 
-struct node
+typedef struct node
 {
     void* value;
     struct node* next;
@@ -53,3 +53,4 @@ void remove_tail(struct node* head);
 void remove_element(struct node* head, int value);
 
 #endif // LINKED_LIST_H_INCLUDED
+

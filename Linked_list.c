@@ -1,4 +1,5 @@
 #include "linked_list.h"
+#include "stdlib.h"
 
 void print_list(struct node* head)
 {
@@ -76,7 +77,7 @@ struct node* remove_head(struct node* head){
 }
 
 void remove_tail(struct node* head){
-    if(head == NULL) return NULL;
+    if(head == NULL) return;
 
     struct node* prev;
     struct node* tail;
@@ -145,3 +146,4 @@ void remove_element(struct node* head, int value)
     }
 
 }
+
